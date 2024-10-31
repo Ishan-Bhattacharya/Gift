@@ -1,0 +1,16 @@
+/* Heart.css */
+.heart {
+    position: absolute;
+    top: -50px; /* Start above the viewport */
+    font-size: 24px; /* Adjust size as needed */
+    animation: fall 2s forwards; /* Animation */
+    opacity: 1; /* Ensure hearts are visible */
+  }
+  
+  @keyframes fall {
+    to {
+      transform: translateY(100vh); /* Move to the bottom of the viewport */
+      opacity: 0; /* Fade out */
+    }
+  }
+  
