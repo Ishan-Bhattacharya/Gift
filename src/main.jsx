@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-rou
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
     <App />
     </BrowserRouter>
   </StrictMode>,
